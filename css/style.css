@@ -3,10 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* GENERAL */
 .debug{
  border: 1px solid black;
 }
-
+.line{
+    height: 3px;
+}
+/* /GENERAL */
 
 /* COLORS */
 .bg-green{
@@ -31,23 +35,12 @@
 .greyblue{
     background-color: #3a546d;
 }
-/* SECTIONS */
 
 
-/* /SECTIONS */
-.line{
-    height: 3px;
-}
-
-div.row.text-uppercase p{
-    font-size: 0.8em;
-}
-
-div.col-12.text-uppercase h1{
-    font-size: 1em;
-}
+/* FONTSIZE */
 .fa-brands{
     width: 40px;
     height: 40px;
     line-height: 40px;
 }
+/* /FONTSIZE */
