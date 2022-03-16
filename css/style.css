@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 /* GENERAL */
 .debug{
  border: 1px solid black;
@@ -13,6 +28,20 @@
 /* /GENERAL */
 
 /* COLORS */
+/* NAVBAR */
+.navbar-dark .navbar-brand {
+    color: rgb(255 255 255);
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-dark .navbar-toggler {
+    border-color: rgb(255 255 255);
+}
+/* /NAVBAR */
 .bg-green{
     background-color: #1abc9c;
 }
@@ -57,7 +86,7 @@
 }
 
 div.col-12 img:hover:hover{
-    transition: 0.6s;
+    transition: 0.3s;
     cursor: pointer;
     filter: brightness(60%);
 }
